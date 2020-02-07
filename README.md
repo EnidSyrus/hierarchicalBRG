@@ -5,3 +5,5 @@ Reachability Graphs".
 
 
 Please see the PDF file named "Benchmark_HBRG.pdf" for the benchmarks described in the paper.
+
+Please see HBRGCode directory for the Java codes of the paper. You can find the the Main method to run in PN.java.  
