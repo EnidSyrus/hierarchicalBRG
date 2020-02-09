@@ -7,7 +7,6 @@ Reachability Graphs".
 Please see the PDF file named "Benchmark_HBRG.pdf" for the benchmarks described in the paper.
 
 <h1>Please see HBRGCode directory for the codes of the paper.</h1>  
-=======================================
 
 This program requires Java Development Kit (JDK) 6 or higher version.
 
