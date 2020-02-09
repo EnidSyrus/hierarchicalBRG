@@ -58,9 +58,9 @@ public static void main(String[] args) {
 		};
 		//initial marking (one can change the token numbers in p1 and p7)
 		int[] M0 = {1,//p1
-				      0,0,0,0,0,
-				    2,//p7
-				    0};
+		            0,0,0,0,0,
+		            2,//p7
+		            0};
 		// observable transition set To={t2,t4,t6,t7,t9}
 		List<String> To = Arrays.asList("t2","t4","t6","t7","t9");
 		// primary observable transition Tpri = {t4,t6,t9}
