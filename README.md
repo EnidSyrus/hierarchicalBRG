@@ -10,7 +10,7 @@ Please see the PDF file named "Benchmark_HBRG.pdf" for the benchmarks described 
 
 This program requires Java Development Kit (JDK) 6 or higher version.
 
-We implement the core idea of paper in <B>PN.java</B>, especially <B>getBRG</B> and <B>getBRGWithVector</B> function.
+We implement the key idea of the paper in <B>PN.java</B>, especially <B>getBRG</B> and <B>getBRGWithVector</B> function.
 
 The entry point of the program is the <B>main</B> function in <B>EntryPoint.java</B>
 
