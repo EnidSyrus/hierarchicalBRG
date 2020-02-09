@@ -21,7 +21,7 @@ void testHBRG(int[][] Pre, int[][] Post, int[] M0, List<String> To, List<String>
 ```
 
   ## Input of the program:
-  * input a net system <N,M0> by its <B>Pre</B> matrix, <B>Post<B> matrix, the initial marking <B>M0</B>
+  * input a net system <N,M0> by its <B>Pre</B> matrix, <B>Post</B> matrix, the initial marking <B>M0</B>
   - the observable transtion set <B>To</B>
   * the set of primary observable transitions <B>Tpri</B>
   
