@@ -199,10 +199,10 @@ public class EntryPoint {
 				{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0},
 		};
 		
-		//M0 = a ¡¤ p1 + b ¡¤ p16 + p31 + p32 + p33 +p34 + p35 + p37 + p38 + p39 + 8p40 + p41
+		//M0 = a Â¡Â¤ p1 + b Â¡Â¤ p16 + p31 + p32 + p33 +p34 + p35 + p37 + p38 + p39 + 8p40 + p41
 		int[] M0 = new int[] {2, //token number in p1 -- argument "a" 
 				  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-				  4, //token number in p16 -- argument "b" 
+				  2, //token number in p16 -- argument "b" 
 				  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 8, 1, 0, 0, 0, 0, 0};
 		
 		List<String> To = Arrays.asList("t1","t3","t6","t7","t8","t9","t13","t14","t15","t16","t20","t21","t22","t23","t24","t26","t28","t29","t30","t31","t32","t34","t35","t39");
@@ -233,9 +233,9 @@ public class EntryPoint {
 				{0,0,0,0,0,0,0,1,0},
 		};
 		int[] M0 = {1,//p1
-				      0,0,0,0,0,
-				    2,//p7
-				    0};
+		            0,0,0,0,0,
+		            2,//p7
+		            0};
 		
 		List<String> To = Arrays.asList("t2","t4","t6","t7","t9");
 		List<String> Tpri = Arrays.asList("t4","t6","t9");
