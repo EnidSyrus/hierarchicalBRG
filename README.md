@@ -71,7 +71,7 @@ public static void main(String[] args) {
 	}
 ```
  # Some explanations of this program
-1. The net of benchmark 1 is so big that it is not easy to get its Pre and Post matrices. So, we provide its Pre and Post matrices in EntryPoint.java (see Lines 103 - 200). The reader or reviewer can conveniently test the result of Table I in HBRG-Benchmark.pdf.
+1. The net of benchmark 1 is so big that it is not easy to get its Pre and Post matrices. So, we provide its Pre and Post matrices in EntryPoint.java (see Lines 103 - 200). The reader or reviewer can conveniently test the result of Table I in Benchmark_HBRG.pdf.
 2. The <B>Pre</B> and <B>Post</B> matrices of the net <B>$N_{T\backslash T_{pri}}$</B> are generated in Lines 48-63 of EntryPoint.java
 3. We re-numbered the set $T_{uo}$ for net $N_{T\backslash T_{pri}}$ (Line 65 of EntryPoint.java) since the dimension of the net changes from |P| x |T| to |P| x |T\Tpri|.
 4. In EntryPoint.java, Line 79 generates the BRG; Lines 87-96 generate HBRG.
