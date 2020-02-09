@@ -70,4 +70,7 @@ public static void main(String[] args) {
 		testHBRG(Pre, Post, M0, To, Tpri) ;
 	}
 ```
- 
+ # Some explanations of this app
+1. 封装
+2. 继承
+3. 多态
