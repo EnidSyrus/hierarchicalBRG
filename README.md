@@ -14,8 +14,10 @@ This program requires Java Development Kit (JDK) 6 or higher version.
 The entry point of the program is the <B>main</B> function in <B>EntryPoint.java</B>
 To test the efficiency of the proposed hierarchical BRG, the reader can call the function <B>testHBRG</B> in <B>EntryPoint.java</B>, whose declear is
 
+```java
 public static void testHBRG(int[][] Pre, int[][] Post, int[] M0, List<String> To, List<String> Tpri){}//Java
-  
+```
+
   Input:
   * AA
   - BB
