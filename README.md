@@ -6,4 +6,4 @@ Reachability Graphs".
 
 Please see the PDF file named "Benchmark_HBRG.pdf" for the benchmarks described in the paper.
 
-<h1 style="font-size:150%">Please see HBRGCode directory for the Java codes of the paper.</h1>  
+<h1>Please see HBRGCode directory for the codes of the paper.</h1>  
