@@ -29,9 +29,9 @@ public class EntryPoint {
 		}
 		
 		PN pn1 = new PN(Pre, Post, M0, Tuo, new ArrayList<String>());
-		/*BRG brg = pn1.getBRGWithVector();
-		System.out.println(brg.getNodes());
-		System.out.println(brg.getArcs());*/
+		
+			
+			
 		// newUnobs = Tuo + Tsec
 		List<String> newUnobs = new LinkedList<String>(Tuo);
 		newUnobs.addAll(Tsec);
@@ -43,8 +43,8 @@ public class EntryPoint {
 			auxList.add("t" + i);
 		}
 		
-		// Permanently disable all transition t \in Tpri from pn1 
-		//by first removing arcs connected with t and then adding a place with zero token as the only input place of t.
+		//  
+		//Change the demision of the net from |P|x|T| to |P|x|T\Tpri|
 		int nPn3 = n - Tpri.size();
 		int[][] pn3Pre = new int[m][nPn3];
 		int[][] pn3Post = new int[m][nPn3];
