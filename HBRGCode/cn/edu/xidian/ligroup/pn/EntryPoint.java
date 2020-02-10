@@ -199,7 +199,7 @@ public class EntryPoint {
 				{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0},
 		};
 		
-		//M0 = a ¡¤ p1 + b ¡¤ p16 + p31 + p32 + p33 +p34 + p35 + p37 + p38 + p39 + 8p40 + p41
+		//M0 = a.p1 + b.p16 + p31 + p32 + p33 +p34 + p35 + p37 + p38 + p39 + 8p40 + p41
 		int[] M0 = new int[] {2, //token number in p1 -- argument "a" 
 				  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 				  2, //token number in p16 -- argument "b" 
