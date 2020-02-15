@@ -98,7 +98,7 @@ public class EntryPoint {
 		
 		System.out.println("HBRG size: " + HBRGSize + " (time: " + estimatedTime0 + " s)");
 	}
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		//Pre matrix of the net shown in benchmark1.1 (See Figure 1 of the complementary file "Benchmark_HBRG.pdf" of the paper)
 		int[][] Pre = {
 				/*t1,t2,t3,t4,t5,t6,t7,....,t46*/
@@ -210,7 +210,7 @@ public class EntryPoint {
 		testHBRG(Pre, Post, M0, To, Tpri) ;
 	}
 
-	public static void main1(String[] args) {
+	public static void main(String[] args) {
 		int[][] Pre = {
 				     /*t1,t2,t3,t4,t5,t6,t7,t8,t9*/
 				/*p1*/{1, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -232,9 +232,9 @@ public class EntryPoint {
 				{0,0,0,0,0,2,0,0,0},
 				{0,0,0,0,0,0,0,1,0},
 		};
-		int[] M0 = {1,//p1
+		int[] M0 = {10,//p1
 		            0,0,0,0,0,
-		            2,//p7
+		            20,//p7
 		            0};
 		
 		List<String> To = Arrays.asList("t2","t4","t6","t7","t9");
